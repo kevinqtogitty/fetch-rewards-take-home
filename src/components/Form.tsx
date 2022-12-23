@@ -143,7 +143,7 @@ const Form: React.FC<FormProps> = ({ occupationOptions, stateOptions }) => {
                       </div>
                     </div>
                   </fieldset>
-                  <fieldset className="fieldset">
+                  <fieldset className="fieldset occ-loc">
                     <legend>Occupation & Location</legend>
                     <div className="input-container">
                       <label>Occupation</label>
@@ -165,7 +165,7 @@ const Form: React.FC<FormProps> = ({ occupationOptions, stateOptions }) => {
                         {(msg) => <div className="error">{msg}</div>}
                       </ErrorMessage>
                     </div>
-                    <div className="input-container">
+                    <div className="input-container ">
                       <label>State</label>
                       <Field
                         as="select"
