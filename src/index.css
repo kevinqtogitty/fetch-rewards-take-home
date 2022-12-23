@@ -144,9 +144,10 @@ button {
 
   .form {
     width: 90vw;
+    margin-top: 5rem;
   }
 
-  .occ-loc {
+  .fieldset {
     flex-direction: column;
   }
 }
