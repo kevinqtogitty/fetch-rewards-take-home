@@ -14,7 +14,7 @@ A controlled form implemented with Formik and Yup validation.
 
 A controlled form implemented with Formik and Yup validation.
 
-- deployed on at
+- deployed at https://fetch-rewards-sandy.vercel.app/
 
 ### Libraries & Frameworks
 
