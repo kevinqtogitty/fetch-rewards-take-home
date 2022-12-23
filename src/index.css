@@ -1,0 +1,136 @@
+/*
+  Globals
+*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff0db;
+  position: relative;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/*
+  Form
+*/
+
+.form {
+  border-radius: 10px;
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  row-gap: 2rem;
+  background-color: #4b0082;
+  color: #fff0db;
+  padding: 1rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.form-h2 {
+  font-size: 2rem;
+  margin: 0rem;
+}
+
+.fieldset {
+  display: flex;
+  border: none;
+}
+
+legend {
+  font-size: 1.5rem;
+}
+
+.input-groups {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.3rem;
+  height: 10rem;
+}
+
+.input-container {
+  display: flex;
+  row-gap: 0.3rem;
+  flex-direction: column;
+  padding: 0.5rem;
+  width: fit-content;
+  font-size: 1rem;
+  position: relative;
+}
+
+.input-field {
+  height: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 0.8rem;
+  align-self: start;
+}
+
+.input-field:focus {
+  border-bottom: 2px solid #ff6700;
+  margin-bottom: -2px;
+}
+
+.error {
+  position: absolute;
+  bottom: -0.8rem;
+  color: red;
+}
+
+button {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.2rem;
+  height: 2rem;
+  width: 5rem;
+  align-self: center;
+  background-color: #ff6700;
+  border: none;
+  color: #fff0db;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/*
+  Header
+*/
+
+.header-container {
+  /* border: 2px solid green; */
+  width: 100%;
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  padding: 0.1rem;
+  font-size: 7rem;
+  color: #800080;
+  display: flex;
+}
+
+/*
+  Success Form
+*/
+
+.success-h2 {
+  margin: 0rem;
+}
+
+.success-dialog-container {
+  display: flex;
+  width: 100%;
+  column-gap: 1rem;
+  justify-content: space-around;
+}
